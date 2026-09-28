@@ -32,7 +32,9 @@ DespairGen is built around the idea that **your cat's story is yours to fuck up.
 
 ### DespairGen v0.6.1
 
-**DespairGen v0.6.1 is currently available through this repository. A dedicated GitHub Release will be provided here.**
+**[Download DespairGen v0.6.1](https://github.com/Despairic/DespairGen/releases/download/v0.6.1/DespairGen-v0.6.1-master.zip)**
+
+This is the current stable public release.
 
 ## 📜 Changelog
 
