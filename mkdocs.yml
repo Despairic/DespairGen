@@ -1,0 +1,149 @@
+site_name: LifeGen Documentation
+site_url: https://mods.clangen.io/lifegen-docs/
+repo_url: https://github.com/sedgestripe/clangen
+repo_name: sedgestripe/clangen
+edit_uri: https://github.com/sedgestripe/clangen/tree/LifeGen-dev/docs
+nav:
+  - Welcome:
+    - index.md
+    - report-a-bug.md
+  - LifeGen Features:
+    - Writing:
+      - lifegen-features/writing/dialogue.md
+      - lifegen-features/writing/dialogue-references.md
+      - lifegen-features/writing/events.md
+      - lifegen-features/writing/activities.md
+      - lifegen-features/writing/lifegen-additions.md
+    - Art:
+      - lifegen-features/art/favorite-stars.md
+      - lifegen-features/art/patrol-sprites.md
+    - Code:
+      - lifegen-features/code/queen's-activity.md
+    - lifegen-features/references.md
+    - lifegen-features/index.md
+  - LifeGen Catalog:
+    - lifegen-catalog/releases-catalog.md
+    - lifegen-catalog/upcoming.md
+    - lifegen-catalog/index.md
+  - Tech Help Documentation:
+    - tech-help-documentation/index.md
+    - tech-help-documentation/bug-catalog.md
+    - Installing:
+      - tech-help-documentation/installing/application.md
+      - tech-help-documentation/installing/source.md
+  - User Guides:
+    - Save file Editing:
+      - user-guides/save-file-editing/lifegen-sfe-additions.md
+    - Modding Preparation:
+      - user-guides/modding-preparation/github-desktop.md
+      - user-guides/modding-preparation/creating-releases.md
+      - user-guides/modding-preparation/index.md
+    - user-guides/index.md
+  - Contributing to the Wiki:
+      - contributing/index.md
+      - contributing/documentation-resources.md
+  - Development Blog:
+      - blog/index.md
+
+theme:
+  name: material
+  logo: assets/main.png
+  favicon: assets/main.ico
+  # if you add a feature, add a link to it's matching documentation to contributing/documentation-resources.md
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.tooltips
+    - content.code.copy
+    - content.code.annotate
+    - navigation.top
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.path
+  custom_dir: docs-resources
+  palette:
+    - media: "(prefers-color-scheme)"
+      scheme: clangen_light
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to ClanGen light mode
+
+    # Palette toggle for clangen light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: clangen_light
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to basic light mode
+
+    # Palette toggle for basic light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to ClanGen dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: clangen_dark
+      toggle:
+        icon: material/weather-night
+        name: Switch to basic dark mode
+
+    # Palette toggle for basic dark mode
+    - media: "(prefers-color-scheme: og-dark)"
+      scheme: slate
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+extra:
+  homepage: https://mods.clangen.io/LifeGen/download
+extra_css:
+  - stylesheets/extra.css
+
+# if you add an extension, add a link to it's matching documentation to contributing/documentation-resources.md
+markdown_extensions:
+  - abbr
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.inlinehilite
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - docs-resources/.icons
+  - pymdownx.snippets:
+      auto_append:
+        - docs-resources/includes/abbreviations.md
+  - md_in_html
+  - toc:
+      permalink: True
+  - pymdownx.tasklist:
+      custom_checkbox: false
+      clickable_checkbox: true
+  - pymdownx.blocks.caption
+
+watch:
+  - docs-resources/includes
+plugins:
+  - search
+  - git-committers:
+      enabled: !ENV [GIT_COMMITTERS_ENABLED, False]
+      repository: sedgestripe/clangen
+      branch: LifeGen-dev
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - blog

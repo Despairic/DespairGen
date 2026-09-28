@@ -1,0 +1,92 @@
+{
+    "DG001": {
+        "category": "canon_encounter",
+        "collection": "starclan",
+        "collection_order": 0,
+        "title_color": "#F4E7A3"
+    },
+    "DG003": {
+        "category": "canon_encounter",
+        "collection": "starclan",
+        "collection_order": 1,
+        "title_gradient": "fire_to_starclan_blue"
+    },
+    "DG004": {
+        "category": "canon_encounter",
+        "collection": "starclan",
+        "collection_order": 2,
+        "title_gradient": "fire"
+    },
+    "DG005": {
+        "category": "canon_encounter",
+        "collection": "starclan",
+        "collection_order": 3,
+        "title_gradient": "green_to_fire"
+    },
+    "DG002": {
+        "category": "canon_encounter",
+        "collection": "dark_forest",
+        "collection_order": 0,
+        "title_color": "#B56B82"
+    },
+    "DG006": {
+        "category": "canon_encounter",
+        "collection": "dark_forest",
+        "collection_order": 1,
+        "title_gradient": "purple_to_red"
+    },
+    "DG007": {
+        "category": "canon_encounter",
+        "collection": "dark_forest",
+        "collection_order": 2,
+        "title_gradient": "black_to_red"
+    },
+    "DG008": {
+        "category": "canon_encounter",
+        "collection": "dark_forest",
+        "collection_order": 3,
+        "title_gradient": "red_to_black_white"
+    },
+    "DG009": {
+        "category": "hidden",
+        "rarity": "hidden",
+        "collection_order": 0,
+        "title_color": "#B58AD4"
+    },
+    "DG010": {
+        "category": "hidden",
+        "rarity": "hidden",
+        "collection_order": 1,
+        "title_color": "#9FC7E8"
+    },
+    "DG011": {
+        "category": "hidden",
+        "rarity": "hidden",
+        "collection_order": 2,
+        "title_gradient": "black_with_red_edges",
+        "title_color": "#000000",
+        "description_color": "#B71C1C"
+    },
+    "DG012": {
+        "category": "hidden",
+        "rarity": "hidden",
+        "collection_order": 3,
+        "title_gradient": "black_with_red_edges",
+        "title_color": "#000000",
+        "description_color": "#B71C1C"
+    },
+    "DG013": {
+        "category": "hidden",
+        "rarity": "hidden",
+        "collection_order": 4,
+        "title_gradient": "black_with_red_edges",
+        "title_color": "#000000",
+        "description_color": "#B71C1C"
+    },
+    "DG014": {
+        "category": "hidden",
+        "rarity": "hidden",
+        "collection_order": 5,
+        "title_gradient": "trans_flag"
+    }
+}

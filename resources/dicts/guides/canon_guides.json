@@ -1,0 +1,208 @@
+{
+  "chance": 0.005,
+  "description": "Rare canon guiding ghosts are restored to normal gameplay odds.",
+  "starclan": [
+    {
+      "name": "Bluestar",
+      "prefix": "Blue",
+      "suffix": "star",
+      "domain": "starclan",
+      "gender": "female",
+      "rank": "leader",
+      "clan": "ThunderClan",
+      "personality": "wise",
+      "appearance": {
+        "adult_sprite": "adult_long0",
+        "length": "long",
+        "reverse": false,
+        "pattern": "SingleColour",
+        "colour": "SILVER",
+        "tint": "blue",
+        "eye_color": "BLUE",
+        "white_patches": "STAR",
+        "white_patches_tint": "gray",
+        "vitiligo": null,
+        "skin": "BLACK",
+        "scars": [
+          "TWO"
+        ]
+      },
+      "achievement_id": "DG003",
+      "age": 93,
+      "profile_rank": "Former ThunderClan Leader",
+      "profile_title": "StarClan Guide",
+      "profile_title_color": "#F4E7A3",
+      "profile_backstory": "Written Among the Stars",
+      "faith": "starclan"
+    },
+    {
+      "name": "Firestar",
+      "prefix": "Fire",
+      "suffix": "star",
+      "domain": "starclan",
+      "gender": "male",
+      "rank": "leader",
+      "clan": "ThunderClan",
+      "personality": "compassionate",
+      "appearance": {
+        "adult_sprite": "adult_short0",
+        "length": "short",
+        "reverse": true,
+        "pattern": "Tabby",
+        "colour": "DARKGINGER",
+        "tint": "orange",
+        "eye_color": "GREEN",
+        "white_patches": "ESTRELLA",
+        "white_patches_tint": null,
+        "vitiligo": null,
+        "skin": "RED",
+        "scars": [
+          "RIGHTEAR"
+        ]
+      },
+      "achievement_id": "DG004",
+      "age": 96,
+      "profile_rank": "Former ThunderClan Leader",
+      "profile_title": "StarClan Guide",
+      "profile_title_color": "#F4E7A3",
+      "profile_backstory": "Savior among the Stars...",
+      "faith": "starclan"
+    },
+    {
+      "name": "Spottedleaf",
+      "prefix": "Spotted",
+      "suffix": "leaf",
+      "domain": "starclan",
+      "gender": "female",
+      "rank": "medicine cat",
+      "clan": "ThunderClan",
+      "personality": "compassionate",
+      "appearance": {
+        "adult_sprite": "adult_short2",
+        "length": "short",
+        "reverse": false,
+        "pattern": "Marbled",
+        "colour": "DARKBROWN",
+        "tint": "red",
+        "eye_color": "AMBER",
+        "white_patches": "SAVANNAH",
+        "white_patches_tint": "gray",
+        "vitiligo": "VITILIGO",
+        "skin": "PINK",
+        "scars": []
+      },
+      "achievement_id": "DG005",
+      "age": 59,
+      "profile_rank": "Former ThunderClan Medicine Cat",
+      "profile_title": "StarClan Guide",
+      "profile_title_color": "#F4E7A3",
+      "profile_backstory": "Written among the Stars...",
+      "faith": "starclan"
+    }
+  ],
+  "dark_forest": [
+    {
+      "name": "Brokenstar",
+      "prefix": "Broken",
+      "suffix": "star",
+      "domain": "dark_forest",
+      "gender": "male",
+      "rank": "leader",
+      "clan": "ShadowClan",
+      "personality": "arrogant",
+      "appearance": {
+        "adult_sprite": "adult_long2",
+        "length": "long",
+        "reverse": false,
+        "pattern": "Tabby",
+        "colour": "DARKBROWN",
+        "tint": "black",
+        "eye_color": "AMBER",
+        "white_patches": null,
+        "white_patches_tint": null,
+        "vitiligo": null,
+        "skin": "DARKSALMON",
+        "scars": [
+          "BOTHBLIND"
+        ]
+      },
+      "achievement_id": "DG006",
+      "age": 63,
+      "profile_rank": "Fallen Leader of ShadowClan",
+      "profile_title": "Dark Forest Guide",
+      "profile_title_color": "#B56B82",
+      "profile_backstory": "Feared among the stars...",
+      "faith": "dark_forest"
+    },
+    {
+      "name": "Tigerstar",
+      "prefix": "Tiger",
+      "suffix": "star",
+      "domain": "dark_forest",
+      "gender": "male",
+      "rank": "leader",
+      "clan": "ShadowClan",
+      "personality": "ambitious",
+      "appearance": {
+        "adult_sprite": "adult_long2",
+        "length": "long",
+        "reverse": true,
+        "pattern": "Tabby",
+        "colour": "CHOCOLATE",
+        "tint": "black",
+        "eye_color": "AMBER",
+        "white_patches": null,
+        "white_patches_tint": null,
+        "vitiligo": null,
+        "skin": "RED",
+        "scars": [
+          "SNOUT"
+        ]
+      },
+      "achievement_id": "DG007",
+      "age": 79,
+      "profile_rank": "Fallen Leader of ShadowClan",
+      "profile_title": "Dark Forest Guide",
+      "profile_title_color": "#B56B82",
+      "profile_backstory": "Feared among the Stars...",
+      "faith": "dark_forest"
+    },
+    {
+      "name": "Scourge",
+      "prefix": "Scourge",
+      "suffix": "",
+      "domain": "dark_forest",
+      "gender": "male",
+      "rank": "leader",
+      "clan": "BloodClan",
+      "personality": "bloodthirsty",
+      "appearance": {
+        "adol_sprite": "adolescent_short2",
+        "length": "short",
+        "reverse": false,
+        "pattern": "SingleColour",
+        "colour": "BLACK",
+        "tint": "black",
+        "eye_color": "BLUE",
+        "white_patches": "SCOURGE",
+        "white_patches_tint": "none",
+        "vitiligo": null,
+        "skin": "BLACK",
+        "scars": [
+          "LEFTEAR"
+        ],
+        "accessory": [
+          "LEATHER_SPIKE_purple_gold"
+        ]
+      },
+      "achievement_id": "DG008",
+      "age": 76,
+      "profile_rank": "Fallen Leader of BloodClan",
+      "profile_title": "Dark Forest Guide",
+      "profile_title_color": "#B56B82",
+      "profile_backstory": "A Walking Nighmare.",
+      "faith": "dark_forest",
+      "visual_life_stage": "adolescent"
+    }
+  ]
+}

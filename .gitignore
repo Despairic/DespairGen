@@ -1,0 +1,40 @@
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build / packaging output
+build/
+dist/
+*.egg-info/
+
+# Test / coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# IDE/editor local state
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local/generated game saves
+saves/*
+!saves/settings.json
+
+# Temporary files
+*.tmp
+*.bak
+*.swp

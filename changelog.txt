@@ -1,0 +1,15 @@
+DespairGen v0.6.1
+
+- Added a new DespairGen category to the achievements tab.
+- Added achievement unlock popups for DespairGen achievements.
+- 14 DespairGen Achievements available to hunt for! Happy Achievement Hunting! <3
+
+Improvements
+
+- Updated profile information to reflect current cat status.
+- Added client-side achievement tracking.
+- Fixed stale cat references causing Moonplace crashes.
+
+Bug Fixes
+
+- Temporarily disabled the Dark Forest guide's Follow interaction to prevent a known crash.

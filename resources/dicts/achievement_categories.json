@@ -1,0 +1,13 @@
+{
+    "categories": [
+        {
+            "id": "lifegen",
+            "name": "Lifegen Achievements"
+        },
+        {
+            "id": "despairgen",
+            "name": "DespairGen Achievements"
+        }
+    ],
+    "default": "lifegen"
+}
