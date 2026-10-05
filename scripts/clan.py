@@ -69,7 +69,7 @@ class Clan:
 
     """
 
-    leader_lives = 0
+    _leader_lives = 0
     clan_cats = []
 
     age = 0
@@ -211,6 +211,14 @@ class Clan:
         self.second_disaster_moon = 0
 
         rebuild_top_menu_buttons()
+
+    @property
+    def leader_lives(self):
+        return max(0, int(self._leader_lives))
+
+    @leader_lives.setter
+    def leader_lives(self, value):
+        self._leader_lives = max(0, int(value))
 
     @property
     def current_season(self):
