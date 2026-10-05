@@ -2,7 +2,7 @@
 
 **A darker LifeGen fan-edit where you control your cat's life, choices, faith, relationships, and eventual fate.**
 
-> **Current Release: DespairGen v0.6.2**
+> **Current Release: DespairGen v0.6.1**
 
 ## 💬 Join the Community
 
@@ -32,13 +32,13 @@ DespairGen is built around the idea that **your cat's story is yours to fuck up.
 
 ### DespairGen v0.6.2
 
-**[Download DespairGen v0.6.2](https://github.com/Despairic/DespairGen/releases/download/v0.6.1/DespairGen-v0.6.1-master.zip)**
+**[Download DespairGen v0.6.1](https://github.com/Despairic/DespairGen/releases/download/v0.6.1/DespairGen-v0.6.1-master.zip)**
 
 This is the current stable public release.
 
 ## 📜 Changelog
 
-See the full **[DespairGen v0.6.2 changelog](changelog.txt)**.
+See the full **[DespairGen v0.6.1 changelog](changelog.txt)**.
 
 ## Bug Reports
 
