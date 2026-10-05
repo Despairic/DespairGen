@@ -1,4 +1,4 @@
-DespairGen v0.6.1
+DespairGen v0.6.2
 
 - Added a new DespairGen category to the achievements tab.
 - Added achievement unlock popups for DespairGen achievements.
