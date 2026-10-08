@@ -10,6 +10,8 @@
 
 Discuss the game, report bugs, share your cats and clans, and hang out with other DespairGen players.
 
+## EXPERIMENTAL VERSIONS OF DESPAIRGEN ARE ONLY AVAILABLE THROUGH THE DESPAIRGEN SERVER
+
 ## What is DespairGen?
 
 DespairGen is a fan-made modification of LifeGen that expands on the original experience with darker themes, additional gameplay systems, achievements, afterlife mechanics, and more ways for your cats' stories to unfold.
